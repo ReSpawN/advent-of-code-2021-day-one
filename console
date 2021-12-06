@@ -1,14 +1,15 @@
 #!/usr/bin/env php
 <?php
-// application.php
 
-require __DIR__.'/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
-use App\Command\SolveCommand;
+use App\Command\SolvePartOneCommand;
+use App\Command\SolvePartTwoCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-$application->add(new SolveCommand());
+$application->add(new SolvePartOneCommand());
+$application->add(new SolvePartTwoCommand());
 
 $application->run();
