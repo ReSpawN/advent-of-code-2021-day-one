@@ -1,2 +1,9 @@
-# Advent of Code - Day One
-Part 1 and Part 2
+# Advent of Code 2021
+The **Advent of Code**, henceforth AoC, is an Advent calendar of small logical programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
+
+## Day One
+Parts 1 and part 2 of [day one](https://adventofcode.com/2021/day/1).
+
+### Run
+- `php .\console solve:part-one`
+- `php .\console solve:part-two`
